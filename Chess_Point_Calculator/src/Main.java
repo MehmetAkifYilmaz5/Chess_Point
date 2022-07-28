@@ -17,6 +17,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Uzerinde islem yapacaginiz board numarasini giriniz?(\"0\"for exit)");
 		
+		// new line added +++++++
+		
 		Boardnum = sc.nextInt();
 		if(Boardnum==0)
 		{
