@@ -18,6 +18,7 @@ public class Main {
 		System.out.println("Uzerinde islem yapacaginiz board numarasini giriniz?(\"0\"for exit)");
 		
 		//i removed from branch and added new text
+		//added second line of text
 		
 		Boardnum = sc.nextInt();
 		if(Boardnum==0)
