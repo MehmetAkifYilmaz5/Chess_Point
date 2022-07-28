@@ -5,9 +5,12 @@ public class beyazFil {
 		//fil tasinin 4 yöne dogru hareketleri bulundu
 		//sinirlar kontrol edildi
 		//herhangi bir tasla karsilasirsa o yöne dogru hareketi durduruldu
+		//added line to beyaz fil
+
 		/**
 		 * added doc to beyaz fil
 		 */
+
 		// sol ust	
 		for(int i = 1; i<8;i++) {
 				if((a-i) < 0 ||(b-i)<0) {break;}
