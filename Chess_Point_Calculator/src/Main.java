@@ -17,7 +17,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Uzerinde islem yapacaginiz board numarasini giriniz?(\"0\"for exit)");
 		
-		// new line added +++++++
+		//deleted and added from github
 		
 		Boardnum = sc.nextInt();
 		if(Boardnum==0)
@@ -28,7 +28,7 @@ public class Main {
 		int counter = 0;
 		try {
 			BufferedReader br = new BufferedReader(
-					new FileReader("Applicant Assesment Test_4_EK_AtFil\\board"+Boardnum+".txt"));// Burada path girmemiz gerekiyor ki o pathdeki txt formatÄ±nÄ± incelesin
+					new FileReader("Applicant Assesment Test_4_EK_AtFil\\board"+Boardnum+".txt"));// Burada path girmemiz gerekiyor ki o pathdeki txt formatÃ„Â±nÃ„Â± incelesin
 			String s;																				
 			System.out.println("Uzerinde calisacagimiz tablo : ");                                  
 			while ((s = br.readLine()) != null) {   // text formundaki dosya dizi haline cevirildi
@@ -45,7 +45,7 @@ public class Main {
 		fill2Darr(table);
 	
 		
-		for (int i = 0; i < 8; i++) {		//tahta üzerindeki istenen taslar kendilerine uygun harket classlarýna gonderilir
+		for (int i = 0; i < 8; i++) {		//tahta Ã¼zerindeki istenen taslar kendilerine uygun harket classlarÃ½na gonderilir
 			for (int j = 0; j < 8; j++) {
 				if (dtable[i][j].equals("vs") || dtable[i][j].equals("vs+")) {
 					siyah.siyahFil.siyahFil(dtable, i, j);
@@ -74,7 +74,7 @@ public class Main {
 		System.out.println("*********************");
 		System.out.println();
 		System.out.println("Sonuc Tablosu");
-		System.out.println("siyah puani:"+pointCal.calculator(dtable,"s"));//isaretlenmis taslarýn oldugu tahta puan hesaplamasýnda geçer
+		System.out.println("siyah puani:"+pointCal.calculator(dtable,"s"));//isaretlenmis taslarÃ½n oldugu tahta puan hesaplamasÃ½nda geÃ§er
 		System.out.println("beyaz puani:"+pointCal.calculator(dtable,"b"));
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
@@ -86,7 +86,7 @@ public class Main {
 		
 
 	}
-	public static void fill2Darr(String arr[]) { // gelen veri tek boyutlu bir diziye atýldý.
+	public static void fill2Darr(String arr[]) { // gelen veri tek boyutlu bir diziye atÃ½ldÃ½.
 					 // tek boyutlu dizi iki boyutlu diziye donusturuldu.
 		
 		for (int i = 0; i < 8; i++) {
